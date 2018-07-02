@@ -10,7 +10,7 @@ object Versions {
 
     const val android_plugin = "3.1.3"
     const val android_sdk_compile = 27
-    const val android_sdk_min = 27
+    const val android_sdk_min = 15
     const val android_sdk_target = 22
     const val android_sdk_support = "27.1.1"
 
