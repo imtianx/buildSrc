@@ -9,9 +9,9 @@
 object Versions {
 
     const val android_plugin = "3.1.3"
-    const val android_sdk_compile = "27"
-    const val android_sdk_min = 15
-    const val android_sdk_target = 27
+    const val android_sdk_compile = 27
+    const val android_sdk_min = 27
+    const val android_sdk_target = 22
     const val android_sdk_support = "27.1.1"
 
     const val junit = "4.12"
@@ -54,7 +54,7 @@ object Deps {
 
     const val support_multidex = "com.android.support:multidex:${Versions.multidex}"
 
-    const val constraintlayout = "com.android.support:multidex:${Versions.constraintlayout}"
+    const val constraintlayout = "com.android.support.constraint:constraint-layout:${Versions.constraintlayout}"
 
     // test
     const val junit = "junit:junit:${Versions.junit}"
