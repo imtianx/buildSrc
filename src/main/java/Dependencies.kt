@@ -40,6 +40,8 @@ object Versions {
 
     const val fragmentation = "1.3.5"
 
+    const val lifecycle = "1.1.0"
+
 }
 
 object Deps {
@@ -55,6 +57,11 @@ object Deps {
     const val support_multidex = "com.android.support:multidex:${Versions.multidex}"
 
     const val constraintlayout = "com.android.support.constraint:constraint-layout:${Versions.constraintlayout}"
+
+
+    // android arch lib
+    const val lifecycle_extentions = "android.arch.lifecycle:extensions:${Versions.lifecycle}"
+    const val lifecycle_compiler = "android.arch.lifecycle:compiler:${Versions.lifecycle}"
 
     // test
     const val junit = "junit:junit:${Versions.junit}"
