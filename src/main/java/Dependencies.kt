@@ -85,11 +85,11 @@ object Deps {
     // retrofit
     const val retrofit2 = "com.squareup.retrofit2:retrofit:${Versions.retrotit2}"
     const val retrofit2_convert_gson = "com.squareup.retrofit2:converter-gson:${Versions.retrotit2}"
-    const val retrofit2_adapter_rxjava2 = "com.squareup.retrofit2:adapter-rxjava:${Versions.retrotit2}}"
+    const val retrofit2_adapter_rxjava2 = "com.squareup.retrofit2:adapter-rxjava2:${Versions.retrotit2}"
 
     // rxandroid,rxjava2
-    const val rxjava2 = "io.reactivex:rxjava:${Versions.rxjava2}"
-    const val rxandroid = "io.reactivex:rxandroid:${Versions.rxandroid}"
+    const val rxjava2 = "io.reactivex.rxjava2:rxjava:${Versions.rxjava2}"
+    const val rxandroid = "io.reactivex.rxjava2:rxandroid:${Versions.rxandroid}"
 
     // gson
     const val gson = "com.google.code.gson:gson:${Versions.gson}"
