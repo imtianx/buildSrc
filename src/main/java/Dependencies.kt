@@ -18,7 +18,7 @@ object Versions {
     const val test_runner = "1.0.2"
     const val espresso_core = "3.0.2"
 
-    const val multidex = "1.0.3"
+    const val multidex = "1.0.2"
 
     const val kotlin = "1.2.41"
     const val anko = "0.10.5"
