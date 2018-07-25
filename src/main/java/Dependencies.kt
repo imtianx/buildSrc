@@ -20,7 +20,7 @@ object Versions {
 
     const val multidex = "1.0.2"
 
-    const val kotlin = "1.2.41"
+    const val kotlin = "1.2.51"
     const val anko = "0.10.5"
 
     const val constraintlayout = "1.1.2"
@@ -71,6 +71,7 @@ object Deps {
     // kotlin plugin,jre7,noarg,allopen
     const val kotlin_gradle_plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
     const val kotlin_stdlib_jre7 = "org.jetbrains.kotlin:kotlin-stdlib-jre7:${Versions.kotlin}"
+    const val kotlin_stdlib_jdk7 = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}"
     const val kotlin_noarg = "org.jetbrains.kotlin:kotlin-noarg:${Versions.kotlin}"
     const val kotlin_allopen = "org.jetbrains.kotlin:kotlin-allopen:${Versions.kotlin}"
 
