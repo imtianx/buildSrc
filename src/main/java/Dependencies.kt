@@ -1,6 +1,6 @@
 /**
  * <pre>
- *     @desc:
+ *     @desc: common dependencies
  * </pre>
  * @author 奚岩
  * @date 2018/7/2 9:44 AM
@@ -8,7 +8,7 @@
 
 object Versions {
 
-    const val android_plugin = "3.1.3"
+    const val android_plugin = "3.1.4"
     const val android_sdk_compile = 27
     const val android_sdk_min = 15
     const val android_sdk_target = 22
@@ -20,7 +20,7 @@ object Versions {
 
     const val multidex = "1.0.2"
 
-    const val kotlin = "1.2.51"
+    const val kotlin = "1.2.60"
     const val anko = "0.10.5"
 
     const val constraintlayout = "1.1.2"
@@ -62,6 +62,9 @@ object Deps {
     // android arch lib
     const val lifecycle_extentions = "android.arch.lifecycle:extensions:${Versions.lifecycle}"
     const val lifecycle_compiler = "android.arch.lifecycle:compiler:${Versions.lifecycle}"
+    const val lifecycle_livedata = "android.arch.lifecycle:livedata:${Versions.lifecycle}"
+    const val lifecycle_viewmodel = "android.arch.lifecycle:viewmodel:${Versions.lifecycle}"
+    const val lifecycle_runtime = "android.arch.lifecycle:runtime:${Versions.lifecycle}"
 
     // test
     const val junit = "junit:junit:${Versions.junit}"
