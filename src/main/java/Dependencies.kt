@@ -17,7 +17,7 @@ object Versions {
 
     const val android_sdk_compile                           = 29
     const val android_sdk_min                               = 14
-    const val android_sdk_target                            = 22
+    const val android_sdk_target                            = 29
 
     const val android_x_appcompat                           = "1.1.0"
     const val android_x_core_ktx                            = "1.1.0"
@@ -42,12 +42,13 @@ object Versions {
 
     const val anko                                          = "0.10.8"
 
-    const val retrotit2                                     = "2.4.0"
+    const val retrotit2                                     = "2.6.1"
     const val gson                                          = "2.8.5"
-    const val rxjava2                                       = "2.1.16"
-    const val rxandroid                                     = "2.0.2"
+    const val moshi                                         = "1.8.0"
+    const val rxjava2                                       = "2.2.12"
+    const val rxandroid                                     = "2.1.1"
 
-    const val glid                                          = "4,7.1"
+    const val glide                                         = "4.9.0"
     const val eventbus                                      = "3.1.1"
 
     const val arouter_api                                   = "1.3.1"
@@ -143,6 +144,7 @@ object Deps {
     // retrofit
     const val retrofit2                                     = "com.squareup.retrofit2:retrofit:${Versions.retrotit2}"
     const val retrofit2_convert_gson                        = "com.squareup.retrofit2:converter-gson:${Versions.retrotit2}"
+    const val retrofit2_convert_moshi                       = "com.squareup.retrofit2:converter-moshi:${Versions.retrotit2}"
     const val retrofit2_adapter_rxjava2                     = "com.squareup.retrofit2:adapter-rxjava2:${Versions.retrotit2}"
 
     // rxandroid,rxjava2
@@ -152,8 +154,14 @@ object Deps {
     // gson
     const val gson                                          = "com.google.code.gson:gson:${Versions.gson}"
 
+    // moshi
+    const val moshi                                         = "com.squareup.moshi:moshi:${Versions.moshi}"
+    const val moshi_kotlin                                  = "com.squareup.moshi:moshi-kotlin:${Versions.moshi}"
+    const val moshi_kotlin_gen                              = "com.squareup.moshi:moshi-kotlin-codegen:${Versions.moshi}"
+
     // glide
-    const val glide                                         = "com.github.bumptech.glide:glide:${Versions.glid}"
+    const val glide                                         = "com.github.bumptech.glide:glide:${Versions.glide}"
+    const val glide_compiler                                = "com.github.bumptech.glide:compiler:${Versions.glide}"
 
     // eventbus
     const val eventbus                                      = "org.greenrobot:eventbus:${Versions.eventbus}"
@@ -165,7 +173,7 @@ object Deps {
     const val arouter_api                                   = "com.alibaba:arouter-api:${Versions.arouter_api}"
     const val arouter_compile                               = "com.alibaba:arouter-compile:${Versions.arouter_compile}"
 
-    const val utilCode                                      = "com.blankj:utilcodex:${Versions.utilCode}"
+    const val utilCodex                                     = "com.blankj:utilcodex:${Versions.utilCode}"
 
 
     // @formatter:on
