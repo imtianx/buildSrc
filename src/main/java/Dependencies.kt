@@ -36,6 +36,7 @@ object Versions {
     const val android_x_sqlite                              = "2.0.1"
 
     const val android_x_test_runner                         = "1.2.0"
+    const val android_x_test_ext                            = "1.1.1"
     const val android_x_test_espresso_core                  = "3.2.0"
     const val junit                                         = "4.12"
 
@@ -54,6 +55,8 @@ object Versions {
     const val arouter_annotation                            = "1.0.4"
     const val arouter_register                              = "1.0.2"
 
+    const val utilCode                                      = "1.25.9"
+
     const val fragmentation                                 = "1.3.5"
 
     // @formatter:on
@@ -63,7 +66,7 @@ object Deps {
 
     // @formatter:off
 
-    const val android_tools_build_gradle                    = "com.android.tools.build:gradle:${Versions.android_build_tools_gradle}"
+    const val android_gradle_plugin                         = "com.android.tools.build:gradle:${Versions.android_build_tools_gradle}"
     const val android_material                              = "com.google.android.material:material:${Versions.android_x_material}"
 
     const val android_x_appcompat                           = "androidx.appcompat:appcompat:${Versions.android_x_appcompat}"
@@ -122,7 +125,9 @@ object Deps {
     // test
     const val junit                                         = "junit:junit:${Versions.junit}"
     const val test_runner                                   = "androidx.test:runner:${Versions.android_x_test_runner}"
-    const val test_espresso_core                            = "androidx.test:runner:${Versions.android_x_test_espresso_core}"
+    const val test_ext_junit                                = "androidx.test.ext:junit:${Versions.android_x_test_ext}"
+    const val test_ext_junit_ktx                            = "androidx.test.ext:junit-ktx:${Versions.android_x_test_ext}"
+    const val test_espresso_core                            = "androidx.test.espresso:espresso-core:${Versions.android_x_test_espresso_core}"
 
     // kotlin
     const val kotlin_gradle_plugin                          = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Versions.kotlin}"
@@ -156,10 +161,11 @@ object Deps {
     // fragmentation
     const val fragmentation                                 = "me.yokeyword:fragmentation:${Versions.fragmentation}"
 
-
     // arouter
-    const val arouter_api                                   = "'com.alibaba:arouter-api:${Versions.arouter_api}"
-    const val arouter_compile                               = "'com.alibaba:arouter-compile:${Versions.arouter_compile}"
+    const val arouter_api                                   = "com.alibaba:arouter-api:${Versions.arouter_api}"
+    const val arouter_compile                               = "com.alibaba:arouter-compile:${Versions.arouter_compile}"
+
+    const val utilCode                                      = "com.blankj:utilcodex:${Versions.utilCode}"
 
 
     // @formatter:on
