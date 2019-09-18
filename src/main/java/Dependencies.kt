@@ -57,6 +57,7 @@ object Versions {
     const val arouter_register                              = "1.0.2"
 
     const val utilCode                                      = "1.25.9"
+    const val utilCodeKtx                                       = "0.0.5"
 
     const val fragmentation                                 = "1.3.5"
 
@@ -174,6 +175,7 @@ object Deps {
     const val arouter_compile                               = "com.alibaba:arouter-compile:${Versions.arouter_compile}"
 
     const val utilCodex                                     = "com.blankj:utilcodex:${Versions.utilCode}"
+    const val utilCodeKtx                                   = "luyao.util.ktx:AndroidUtilKTX:${Versions.utilCodeKtx}"
 
 
     // @formatter:on
