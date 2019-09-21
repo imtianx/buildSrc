@@ -26,7 +26,7 @@ object Versions {
     const val android_x_cardview                            = "1.0.0"
     const val android_x_recyclerview                        = "1.0.0"
     const val android_x_coordinatorlayout                   = "1.0.0"
-    const val android_x_material                            = "2.0.1"
+    const val android_x_material                            = "1.0.0"
     const val android_x_multidex                            = "2.0.1"
     const val android_x_percentlayout                       = "1.0.0"
     const val android_x_swiperefreshlayout                  = "1.0.0"
@@ -57,7 +57,8 @@ object Versions {
     const val arouter_register                              = "1.0.2"
 
     const val utilCode                                      = "1.25.9"
-    const val utilCodeKtx                                       = "0.0.5"
+    const val utilCodeKtx                                   = "0.0.5"
+    const val base_rv_adapter_helper              = "2.9.49-androidx"
 
     const val fragmentation                                 = "1.3.5"
 
@@ -176,6 +177,7 @@ object Deps {
 
     const val utilCodex                                     = "com.blankj:utilcodex:${Versions.utilCode}"
     const val utilCodeKtx                                   = "luyao.util.ktx:AndroidUtilKTX:${Versions.utilCodeKtx}"
+    const val base_rv_adapter_helper                        = "com.github.CymChad:BaseRecyclerViewAdapterHelper:${Versions.base_rv_adapter_helper}"
 
 
     // @formatter:on
