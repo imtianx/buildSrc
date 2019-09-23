@@ -16,7 +16,7 @@ object Versions {
 
 
     const val android_sdk_compile                           = 29
-    const val android_sdk_min                               = 14
+    const val android_sdk_min                               = 19
     const val android_sdk_target                            = 29
 
     const val android_x_appcompat                           = "1.1.0"
