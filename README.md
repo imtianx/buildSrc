@@ -37,7 +37,7 @@ allprojects {
   - [x] [blankj:utilcode](https://github.com/Blankj/AndroidUtilCode)
   - [x] [AndroidUtilKTX](https://github.com/lulululbj/AndroidUtilCodeKTX)
   - [x] [LiveEventBus](https://github.com/JeremyLiao/LiveEventBus)
-  - [x] [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelpers)
+  - [x] [BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)
   
   
   
