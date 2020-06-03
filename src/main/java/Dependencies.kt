@@ -10,9 +10,9 @@ object Versions {
 
     // @formatter:off
 
-    const val android_build_tools_gradle                    = "3.5.0"
-    const val kotlin                                        = "1.3.50"
-    const val kotlin_x_coroutines_android                   = "1.3.1"
+    const val android_build_tools_gradle                    = "4.0.0"
+    const val kotlin                                        = "1.3.72"
+    const val kotlin_x_coroutines_android                   = "1.3.7"
 
 
     const val android_sdk_compile                           = 29
@@ -24,9 +24,9 @@ object Versions {
     const val android_x_fragment                            = "1.1.0"
     const val android_x_constraintlayout                    = "1.1.3"
     const val android_x_cardview                            = "1.0.0"
-    const val android_x_recyclerview                        = "1.0.0"
+    const val android_x_recyclerview                        = "1.1.0"
     const val android_x_coordinatorlayout                   = "1.0.0"
-    const val android_x_material                            = "1.0.0"
+    const val android_x_material                            = "1.1.0"
     const val android_x_multidex                            = "2.0.1"
     const val android_x_percentlayout                       = "1.0.0"
     const val android_x_swiperefreshlayout                  = "1.0.0"
@@ -42,7 +42,7 @@ object Versions {
 
     const val anko                                          = "0.10.8"
 
-    const val retrotit2                                     = "2.6.1"
+    const val retrotit2                                     = "2.9.0"
     const val gson                                          = "2.8.5"
     const val moshi                                         = "1.8.0"
     const val rxjava2                                       = "2.2.12"
@@ -56,11 +56,10 @@ object Versions {
     const val arouter_annotation                            = "1.0.4"
     const val arouter_register                              = "1.0.2"
 
-    const val utilCode                                      = "1.25.9"
+    const val utilCode                                      = "1.29.0"
     const val utilCodeKtx                                   = "0.0.5"
-    const val base_rv_adapter_helper              = "2.9.49-androidx"
+    const val base_rv_adapter_helper                        = "3.0.4"
 
-    const val fragmentation                                 = "1.3.5"
 
     // @formatter:on
 }
@@ -167,9 +166,6 @@ object Deps {
 
     // eventbus
     const val eventbus                                      = "org.greenrobot:eventbus:${Versions.eventbus}"
-
-    // fragmentation
-    const val fragmentation                                 = "me.yokeyword:fragmentation:${Versions.fragmentation}"
 
     // arouter
     const val arouter_api                                   = "com.alibaba:arouter-api:${Versions.arouter_api}"
